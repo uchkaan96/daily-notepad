@@ -1,0 +1,165 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .home-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .home-header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .home-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .home-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .site-layout-header {
+    background: #001529;
+    color: white;
+    padding: 0;
+  }
+  
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .menu-title{
+    height: 50px;
+
+  }
+
+.ant-layout-sider-children {
+    background-color: #f8d0e6;
+  }
+  
+  .site-layout-background {
+    background-color: #fff;
+    padding: 25px;
+    height: 810px;
+  }
+
+.ant-menu-item a {
+    color: black !important; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+  }
+  
+  .ant-menu-item-selected a {
+    color: black !important; 
+  }
+  
+  .ant-menu-item:hover a {
+    color: black !important; 
+  }
+  .calendar-container {
+    padding: 13px;
+  }
+  .todo-list {
+    background-color: #f0f4ff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 320px; 
+    margin: 0 auto;
+  }
+  
+  .todo-list h2 {
+    font-size: 18px;
+    margin: 5px;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0; 
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .todo-list button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff4d4f;
+    font-size: 10px; 
+    margin-left: 16px; 
+  }
+  
+  .todo-list input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+  }
+  
+  .weather-widget {
+    background-color: #f0f4ff;
+    padding: 16px;
+    border-radius: 8px;
+    width: 320px; 
+    margin: 0 auto;
+    margin: 15px;
+  }
+  
+  .weather-widget h2 {
+    font-size: 18px;
+    margin: 5px;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+  
+  .weather-icon {
+    font-size: 36px;
+    margin-right: 12px;
+  }
+  
+  .weather-details h3 {
+    margin: 0;
+  }
+  
+  .weather-details p {
+    margin: 0;
+  }
+  
+
+  
