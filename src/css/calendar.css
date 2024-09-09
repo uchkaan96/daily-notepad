@@ -1,0 +1,22 @@
+.events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .events li {
+    margin-bottom: 4px;
+  }
+  
+  .ant-badge-status-dot {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .ant-badge-status-text {
+    font-size: 12px;
+  }
+  
+  
+  
+  

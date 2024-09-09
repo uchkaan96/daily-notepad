@@ -1,0 +1,77 @@
+.habit-tracker {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.habit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-left span {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.header-right button {
+    font-size: 16px;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.progress-text {
+    font-size: 14px;
+}
+
+.progress-percentage {
+    font-size: 14px;
+}
+
+.habit-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(7, 1fr) 1fr;
+    gap: 10px;
+}
+
+.grid-header {
+    display: contents;
+}
+
+.grid-day {
+    text-align: center;
+    font-weight: bold;
+}
+
+.habit-row {
+    display: contents;
+}
+
+.habit-name {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.habit-day {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.habit-day.completed {
+    color: white;
+}
+
+.habit-total {
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}

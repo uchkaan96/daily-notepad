@@ -1,8 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/Login/Login';
-import SignUp from './components/Login/SignUp';
+import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home'; 
+import Calendar from './pages/Calendar/Calendar'; 
+import Habit from './pages/Habit/Habit';
 import './App.css';
 
 function App() {
@@ -10,8 +12,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/SignUp" element={<SignUp />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/calendar" element={<Calendar />} />
+        <Route path="/habit" element={<Habit/>} />
       </Routes>
     </Router>
   );
