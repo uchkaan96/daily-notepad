@@ -20,7 +20,7 @@ const Navbar = () => {
         <a href="/">Profile</a>
       </nav>
       <button onClick={toggleMode} className="mode-toggle">
-        {darkMode ? <MdLightMode /> : <MdDarkMode />}
+        {darkMode ? <MdDarkMode /> : <MdLightMode />}
       </button>
     </header>
   );
