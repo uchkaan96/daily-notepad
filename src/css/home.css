@@ -1,14 +1,26 @@
-.container-custom {
-    width: 100vw; 
-    height: 100vh; 
-    padding: 20px;
-    background-color: #fff; 
-    border-radius: 10px; 
-    text-align: center;
-}
-
 @media (min-width: 768px) {
 .container-custom {
     width: 100vw; 
- }
+    height:100vh;
+    background: url('../components/assets/bc.png') no-repeat center center fixed;
+}
+}
+.container-custom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 20px; 
+    padding: 150px;
+}
+  
+.grid-item {
+    background: #dde6fc;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    font-style: @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Sofadi+One&display=swap');
+    font-size: 30px;
+    text-align: center;
+    width: 350px;
 }

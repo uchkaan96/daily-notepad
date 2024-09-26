@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../../css/navbar.css';
+import '../../css/login.css';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
-import { GiBalloonDog } from "react-icons/gi";
+import { RiHomeHeartLine,RiCalendarEventLine,RiChatCheckLine,RiUser5Fill } from "react-icons/ri";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,10 +15,10 @@ const Navbar = () => {
     <header className={`header ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <a href="/" className="logo">Logo</a>
       <nav className="navbar">
-        <a href="/">Home</a>
-        <a href="/">Calendar</a>
-        <a href="/">Daily Routine</a>
-        <a href="/">Profile</a>
+      <RiHomeHeartLine className="icon1" /><a href="/">Home</a>
+      <RiCalendarEventLine className="icon1" /><a href="/">Calendar</a>
+      <RiChatCheckLine className="icon1" /><a href="/">Daily Routine</a>
+      <RiUser5Fill className="icon1" /><a href="/">Profile</a>
       </nav>
       <button onClick={toggleMode} className="mode-toggle">
         {darkMode ? <MdDarkMode /> : <MdLightMode />}

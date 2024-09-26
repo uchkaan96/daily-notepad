@@ -1,0 +1,13 @@
+.ant-layout-header {
+   background-color: #f8d0e6;
+}
+.Sidebar {
+    width: 300px;
+    height: 100vh; /* Makes the sidebar take the full viewport height */
+    background-color: #fbd0d5; /* Matches Ant Design dark theme */
+    padding: 16px;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+    position: fixed; /* Sidebar stays fixed on the page */
+    top: 0;
+    left: 0;
+}

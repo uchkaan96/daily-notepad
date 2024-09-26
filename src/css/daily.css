@@ -1,0 +1,97 @@
+.daily-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 20px;
+}
+  
+  .clock-container {
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    height: 200px;
+  }
+  
+  .clock {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .clock-time {
+    margin-right: 10px;
+  }
+  
+  .clock-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .clock-period,
+  .clock-day {
+    font-size: 1.5em;
+  }
+  
+  .habit-tracker {
+    margin-top: 40px;
+  }
+  
+  .ant-table {
+    width: 100%;
+  }
+  
+  .ant-progress {
+    width: 100px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .daily-container .btn-add {
+    width: 100px;
+    background-color: #08a9d2;
+    border-color: #08a9d2;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .daily-container .btn-add:hover {
+    background-color: #007ba1; 
+    border-color: #007ba1;
+  }
+  
+  .daily-container .btn-save {
+    width: 100px;
+    background-color: #08a9d2;
+    border-color: #08a9d2;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .daily-container .btn-save:hover {
+    background-color: #007ba1; 
+    border-color: #007ba1;
+  }
+  .write-mood {
+    margin-top: 20px;
+  }
+  
+  .upload-picture {
+    margin-top: 20px;
+  }
+  
+  .uploaded-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
